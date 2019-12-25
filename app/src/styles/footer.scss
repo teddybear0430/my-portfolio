@@ -1,0 +1,11 @@
+@import 'variables';
+
+#Footer {
+    background: $key_color_1;
+    padding: 1rem;
+    border-top: 1px solid #ddd;
+    .copyright {
+        display: block;
+        text-align: center;
+    }
+}

@@ -1,0 +1,29 @@
+@import 'variables';
+    
+#Skills {
+    table {
+        width: 60%;
+        margin: 30px 0;
+        border: 1px solid #ddd;
+        box-shadow: 0 0px 40px 0px rgba(0, 0, 0, 0.15);
+        th,td {
+            border: 1px solid #ddd;
+            padding: 0.4rem;
+        }
+        th {
+            background: $key_color_2;
+            color: #fff;
+        }
+        td {
+            background: #f8f6ff;
+            &:nth-child(3) {
+                color: orange;
+            }
+        }
+    }
+    @media (max-width: 800px) {
+        table {
+            width: 100%;
+        }
+    }
+}

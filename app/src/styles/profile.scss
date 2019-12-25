@@ -1,0 +1,39 @@
+#Profile {
+    .profile-area {
+        width: 80%;
+        margin: 20px 10%;
+        display: flex;
+        .icon {
+            .icon-img {
+            border: 2px solid #ddd;
+            border-radius: 50%;
+            min-width: 200px;
+            min-height: 200px;
+            margin: 20px;
+            display: block;
+            }
+        }
+        .profile {
+            border: 2px solid #ddd;
+            margin: 20px;
+            padding: 0.4rem;
+            li {
+                margin-left: 20px;
+            }
+        }
+    }
+    @media (max-width: 800px) {
+        .profile-area {
+            display: block;
+            margin: 20px 0;
+            width: 100%;
+            .icon {
+                margin: 0;
+                text-align: center;
+            }
+            .profile {
+                margin: 20px 0;
+            }
+        }
+    }
+}
