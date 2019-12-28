@@ -1,13 +1,23 @@
-import React from 'react';
+import React,{ useState } from 'react';
 import TextField from '@material-ui/core/TextField';
 import Button from '@material-ui/core/Button';
+import FormControlLabel from '@material-ui/core/FormControlLabel';
+import Checkbox from '@material-ui/core/Checkbox';
 
 import '../../styles/contact.scss';
 
 const Contact = () => {
+    const [checked, setChecked] = useState(false);
+    const [submit, setSubmit] = useState(true);
+
+    const handleChange = (e) => {
+        setChecked(e.target.checked);
+        setSubmit(!submit);
+    }
+
     return (
         <section id="Contact">
-            <form className="contact-form">
+            <form className="contact-form" method="POST" netlify>
             <h2>Contact</h2>
             <TextField
                 className="input-field"
@@ -20,6 +30,7 @@ const Contact = () => {
                 className="input-field"
                 label="メールアドレス"
                 type="mail"
+                name="mail"
                 margin="normal"
                 required
             />
@@ -32,7 +43,23 @@ const Contact = () => {
                 variant="outlined"
                 multiline
             />
-            <Button variant="contained" color="primary" type="submit">送信</Button>
+            <FormControlLabel
+                control={
+                    <Checkbox
+                        checked={checked}
+                        onChange={handleChange}
+                    />
+                }
+                label="チェックを入れて送信ボタンを押してください。"
+            />
+            <Button 
+                variant="contained" 
+                color="primary"
+                disabled={submit}
+                type="submit"
+            >
+                送信
+            </Button>
             </form>
         </section>
     );
