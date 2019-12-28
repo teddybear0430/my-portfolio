@@ -1,13 +1,13 @@
 import React from 'react';
 import AnchorLink from 'react-anchor-link-smooth-scroll';
 
-const Nav = ({ menus, classNameNav, handleNav }) => {
+const Nav = ({ menus, navClassNames, handleNav }) => {
     const pageScroll = (e) => {
         handleNav(e);
     }
 
     return (
-        <div id="SP-Nav" className={classNameNav}>
+        <div className={navClassNames}>
             <ul className="sp-navigation">
             {
                 menus.map((menu, i) => 

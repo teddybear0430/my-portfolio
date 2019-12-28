@@ -1,7 +1,7 @@
 @import 'variables';
 
 // スマホ用のナビ
-#SP-Nav {
+.sp-nav {
     position: fixed;
     top: 0;
     left: 0;
@@ -25,7 +25,7 @@
     }
 }
 
-.sp-toggle-active {
+.sp-nav-active {
     visibility: visible !important;
     transition: all 0.4s !important;
     transform: translateY(0) !important;
