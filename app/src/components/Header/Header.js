@@ -1,4 +1,4 @@
-import React,{ useState,useEffect } from 'react';
+import React,{ useState } from 'react';
 import AnchorLink from 'react-anchor-link-smooth-scroll';
 import ClassNames from 'classnames';
 
@@ -18,24 +18,26 @@ const Header = () => {
     const [open, setOpen] = useState(false);
 
     const handleNav = (e) => {
+        const spToggleClass = document.getElementsByClassName('sp-toggle')[0];
+        spToggleClass.classList.toggle('sp-toggle-active');
         setOpen(!open);
         e.preventDefault();
     }
 
-    const classNameNav = ClassNames({
-        "sp-toggle": true,
-        "sp-toggle-active": open
+    const navClassNames = ClassNames({
+        "sp-nav": true,
+        "sp-nav-active": open
     })
 
     return (
         <>
         <Nav
             menus={menus}
-            classNameNav={classNameNav}
+            navClassNames={navClassNames}
             handleNav={handleNav}
         />
         <header id="Top">
-            <div className="sp-nav-wrapper">
+            <div className="sp-nav-container">
             <a className="sp-toggle" href="#" onClick={(e) => handleNav(e)}>
                 <span></span>
                 <span></span>
