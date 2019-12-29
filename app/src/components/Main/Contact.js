@@ -17,6 +17,7 @@ const Contact = () => {
 
     return (
         <section id="Contact">
+            <div className="container">
             <form className="contact-form" method="POST" netlify>
             <h2>Contact</h2>
             <TextField
@@ -61,6 +62,7 @@ const Contact = () => {
                 送信
             </Button>
             </form>
+            </div>
         </section>
     );
 }
