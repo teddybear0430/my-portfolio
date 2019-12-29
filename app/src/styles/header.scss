@@ -26,7 +26,7 @@ header {
                 letter-spacing: 2px;
                 transition: all 0.7s;
                 &:hover {
-                    color: $font_color_1;
+                    color: $key_color_4;
                     transition: all 0.7s;
                 }
             }
@@ -104,9 +104,14 @@ header {
                 text-shadow: 2px 2px 2px #4a4949;
                 font-family: monospace;
             }
-            @media (max-width: 1024px) {
+            @media (max-width: 600px) {
                 .title {
-                    font-size: 4rem;
+                    font-size: 3.5rem;
+                }
+            }
+            @media (max-width: 400px) {
+                .title {
+                    font-size: 3rem;
                 }
             }
             .sub-title {
