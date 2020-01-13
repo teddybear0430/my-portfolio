@@ -19,7 +19,7 @@ const Contact = () => {
         <section id="Contact">
             <div className="container">
             <form className="contact-form" method="POST" netlify>
-            <h2>Contact</h2>
+            <h2 className="heading">Contact</h2>
             <TextField
                 className="input-field"
                 label="お名前"

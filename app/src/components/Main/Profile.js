@@ -9,7 +9,7 @@ const Profile = ( props ) => {
     return (
         <section id="Profile">
             <div className="container">
-            <h2>Profile</h2>
+            <h2 className="heading">Profile</h2>
                 <div className="profile-area">
                     <div className="icon">
                         <Img className="icon-img" fixed={icon} />
