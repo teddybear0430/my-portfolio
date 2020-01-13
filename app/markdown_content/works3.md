@@ -1,0 +1,19 @@
+### penguin-media
+
+![penguin-media]( https://lh3.googleusercontent.com/ZDUI1mM2bjt_RL01maDyGxOOQg1AygLA-wq1bPOQlf4VdbOcfdXIqMFPE2nCpRVeCDm2KqtVjBnKFubzRrd_InlX6sQqR4o3O79iKDOBYGP45fWmP6UGmrQDvgawQdQMsK9FOb1kmQfdhMtxmp-LgNGrkA3BHB1NtDPtsqDhAzKEZwXXRGIDcFuTj0X-9KwAqEmFC5SX6zHv7EdP4ww6BcuDJE4doFPWVEZLKIgWm7qY874BPD628bN5-E0kqhUMu68flBO4cN08MNIRr5r593lyQDsU6LcEhx0Lm0SGl9O3OjxYi-BJCdn-Ch-JZkOf4WUjdG3hRtT4ScP9ja6s6iOn6IdKkV6z8P2KOwzqsj0kDrotRu1C95Rmm2g6JkbI2FOuwxNPd_wTaDnZOM7YbrVFDCsmBJde3jT30e1coSX-smGrRfeiH9THLmN28BWGfa4MlzkhW8qfrntMLhXNWag2WFLeLr19miE0WZ0tk35zQLwQlnWpvnH1lIAEo-CMr1UxUf-CBJEczR4q_QqOkJN6IzunyIbdFKtzXbIU_eDOvGEVciiBxVvWKsiC3neM3xJ9LKKdA8WCAptZn7Br3eAXKg7eBN_5rZE61GJKRJIH6FPUkk3FilvwuGSe55H4-ZgNza7Vb-8K49jiP24aE5NtrA40usl8wbAz9diJJSCyvIDYwmbcZD-oLFcS=s2840-w2840-h1490-no "penguin-media")
+
+自作のWordPressテーマです。
+
+Webpackを使用して、JSやCSSを一つのファルにまとめることで高速化を図っています。
+
+現在はサイトマップやお問い合わせの生成や、カスタマイザーで見出しのデザインを変更できる機能の開発を行っています。
+
+<https://github.com/Yota-K/penguin-media>
+
+#### 使用した技術
+- HTML
+- SCSS
+- JavaScript
+- Webpack
+- PHP
+- WordPress

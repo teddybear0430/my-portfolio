@@ -1,0 +1,15 @@
+### My Portfolio
+
+![My Portfolio]( https://lh3.googleusercontent.com/2XggR_M4hzfMgibk9aLpvtYZHIQDdnZ3MWFgq17EycnA97wQQXs0ZggZEinKnbzXCI3v202bx_HrtoW9V07s5JNkPDeYzAbRtypFKj3lFheKXnNrpfhlh2ZCf8X57kaCl5LHyHsIrD9zSIXOkc8ONokZUuxFI-JBb6MvleiFQIhjghL_JNJ-AnWXhzRsSens02TaAl6EbE9h7E7uVfCe8_rfSiQxZQ4BOQG5lbtGNUP6fEhDkMa2Mewk8xIcYFmMcHqhTVORbA_vhejpbYjAMJ102nszR63NF8C4h6LG_LYNGvlexUAqtygTodan-ect3jQbomhuH2afSlUc6GxiHqU8bPyu7bfZxiEdeIOcCle46mpoBmiqLYmu0DpfPRSE2xaMFJ1n4PM8KuGqJEZNMjHcZ-B6bO8NW6JeouIwPn8RWhwgiKMER5cM-jf67D5Ku76xisM0nmjm7dDeUjms6rXIoNq2qZVlOZkJer11gxDImY82NzdzcHd07ojoNXq9uEy78eSz5euk1smo5yK7aPi7ECKk8fiyU0b9Gu9tVq4Tq2xmZfRuuIWM5xcU2vpJVZWjukFVh2OzaJine79LfXYDDvfkxPIwFTiabBZossU10hCy18jhnulds6vVutMP1Qv82plKRO70WHR1QuZB6G4sWmp2fZ04hOmcFvEXD4eMkZ96TXG_GNU=w2880-h1570-no "My Portfolio")
+
+Gatsby.jsを用いて製作したポートフォリオサイトです。
+
+<https://amazing-wozniak-9cea93.netlify.com/>
+
+#### 使用した技術
+- HTML
+- SCSS
+- JavaScript
+- React
+- GatsbyJS
+- GraphQL
