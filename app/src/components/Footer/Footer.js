@@ -6,10 +6,10 @@ const nowYear = () => {
     return getYear;
 }
 
-const Footer = (props) => {
+const Footer = ({ title }) => {
     return (
         <footer id="Footer">
-            <span className="copyright">Copyright {props.title} © {nowYear()}</span>
+            <span className="copyright">Copyright {title} © {nowYear()}</span>
         </footer>
     );
 }
