@@ -7,7 +7,7 @@
 module.exports = {
     siteMetadata: {
         title: 'My Portfolio',
-        description: 'ポートフォリオ',
+        description: 'Yota-Kのポートフォリオ。',
         author: 'Yota-K'
     },
     plugins: [
@@ -15,6 +15,7 @@ module.exports = {
         `gatsby-transformer-remark`,
         `gatsby-transformer-sharp`,
         `gatsby-plugin-sharp`,
+        `gatsby-plugin-react-helmet`,
         {
             resolve: `gatsby-source-filesystem`,
             options: {
@@ -28,7 +29,29 @@ module.exports = {
                 name: `skills`,
                 path: `${__dirname}/markdown_content/skills.md`,
             },
-        },{
+        },
+        {
+            resolve: `gatsby-source-filesystem`,
+            options: {
+                name: `works1`,
+                path: `${__dirname}/markdown_content/works1.md`,
+            },
+        },
+        {
+            resolve: `gatsby-source-filesystem`,
+            options: {
+                name: `works2`,
+                path: `${__dirname}/markdown_content/works2.md`,
+            },
+        },
+        {
+            resolve: `gatsby-source-filesystem`,
+            options: {
+                name: `works3`,
+                path: `${__dirname}/markdown_content/works3.md`,
+            },
+        },
+        {
             resolve: `gatsby-source-filesystem`,
             options: {
                 name: `images`,

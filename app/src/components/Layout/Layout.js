@@ -1,7 +1,7 @@
 import React from 'react';
 import { StaticQuery, graphql } from 'gatsby';
 
-import Header from '../Header/Header.js';
+import SEO from '../SEO/SEO.js';
 import Footer from '../Footer/Footer.js';
 
 import '../../styles/common.scss';
@@ -14,15 +14,19 @@ const Layout = ({ children }) => {
                 site {
                     siteMetadata {
                         title
+                        description
                     }
                 }
             }
         `}
         render={data => (
             <>
-                <Header />
+                <SEO 
+                    title={data.site.siteMetadata.title}
+                    description={data.site.siteMetadata.description}
+                />
                 <main className="wrapper">
-                {children}
+                { children }
                 </main>
                 <Footer title={data.site.siteMetadata.title} />
             </>
