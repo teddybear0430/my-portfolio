@@ -20,16 +20,14 @@ const Layout = ({ children }) => {
             }
         `}
         render={data => (
-            <>
+            <div className="wrapper">
                 <SEO 
                     title={data.site.siteMetadata.title}
                     description={data.site.siteMetadata.description}
                 />
-                <main className="wrapper">
                 { children }
-                </main>
                 <Footer title={data.site.siteMetadata.title} />
-            </>
+            </div>
         )}
     />
     )
