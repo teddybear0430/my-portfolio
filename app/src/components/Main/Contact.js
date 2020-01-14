@@ -18,7 +18,8 @@ const Contact = () => {
     return (
         <section id="Contact">
             <div className="container">
-            <form className="contact-form" method="POST" netlify>
+            <form name="contact" className="contact-form" method="POST" data-netlify="true">
+            <input type="hidden" name="form-name" value="contact" />
             <h2 className="heading">Contact</h2>
             <TextField
                 className="input-field"
