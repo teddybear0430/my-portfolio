@@ -1,6 +1,6 @@
 import React from 'react';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faGithub } from "@fortawesome/free-brands-svg-icons";
+//import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+//import { faGithub } from "@fortawesome/free-brands-svg-icons";
 import { Link } from '@material-ui/core';
 import '../../styles/footer.scss';
 
@@ -13,11 +13,6 @@ const Footer = ({ title }) => {
     return (
         <footer id="Footer">
             <span className="copyright">Copyright {title} © {nowYear()}</span>
-            <div className="icon-container">
-                <Link href="https://github.com/Yota-K" color="inherit">
-                    <FontAwesomeIcon className="github-icon" icon={faGithub} />
-                </Link>
-            </div>
         </footer>
     );
 }
