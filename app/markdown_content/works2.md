@@ -1,12 +1,16 @@
 ### エナドリ！
 
-![energy-drink-app]( https://lh3.googleusercontent.com/tToUA1xaQ67MGLRrbdntD9WKxyZiYBhoC5LxUCF1Op17FDtUqlV4ChExg3yjIaoUP0jXlO0FsVR5LblPXqDeGOD6UMb6NZeMIXpk1XK65B2slhy9qpGPfcyQMZmFmk-xjdoqSX97pY3pqfBfVGk4A81716YV4yJJJx4G8bPQ0nA4xI3dpt0h6E2JYngY45adsed9-5sv6ToNd7XUNmGrhxm3-tZe5Rx44vuGhgpl81k4bpc9c-2E3uTAm0m25_NlMg19CfLf0UzLuK7nOezdeDvskHhYVP8phZ5Qc92HDGOiNxYdz9xDpF72cipW0LTrVQOAr5En5qI8s0I2ymWPuiRqhzcSYI7bncFF07jakNmQmBka-f2d-QTCZyZRneElUaNUNxZ5ttrwSm6MlKPE1nCvY4KEakEwOjtbOQyLtYzP84NSTHOat73ArRSzrdwaxwiamZzAm22GpQczYOLq_WP2YzITPp_NsPzZpgV1eU8PuSmEOOD7WbtPbP5vuFYKmeH1zUGt2VlP4WxhhZTCqPy1Cv_Z2aKY7vmRJeosjhb4O8yGQ_1FgpX9xZ8WZYTYPxJkJ-Zt8K0Pn39eH0e3K5E_1yZ5SaGrtnKMaZ0DFyAmdbJ_IO1s4aA-Lk3mOSLlxgT3y_2dAedLz5KE_EhhbSPsHJwFUNWjaQz4OuPRyFeKyuyJ-MyidY34C0Zp=s2734-w2734-h1490-no "energy-drink-app")
+![energy-drink-app](https://drive.google.com/uc?export=view&id=1IY2M27Wmsdtf6hhYloEmTxxtiBJIT6TD "energy-drink-app")
 
-エナジードリンクの成分がわかるアプリです。
+#### 概要
+エナジードリンクの成分がわかるウェブアプリです。
 
-プログラミングを学習して一番最初に開発したアプリです。
+プログラミングを学習して一番最初に開発したウェブアプリです。
 
 <https://yota-k.github.io/energy_drink/>
+
+#### ソースコード
+<https://github.com/Yota-K/energy_drink>
 
 #### 使用した技術
 - HTML
@@ -14,3 +18,4 @@
 - JavaScript
 - React
 - Gulp
+- bootstrap
