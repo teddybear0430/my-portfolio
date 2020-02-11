@@ -18,10 +18,10 @@ const Index = ({ data }) => {
             <Header />
             <main>
                 <Profile 
-                    html={markdown.edges[0].node.html}
+                    profile={markdown.edges[0].node.html}
                     icon={data.image1.childImageSharp.fixed}
                 />
-                <Skills html={markdown.edges[1].node.html} />
+                <Skills skills={markdown.edges[1].node.html} />
                 <Works 
                     works1={markdown.edges[2].node.html} 
                     works2={markdown.edges[3].node.html} 

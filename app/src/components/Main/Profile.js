@@ -3,9 +3,7 @@ import Img from 'gatsby-image';
 
 import '../../styles/profile.scss';
 
-const Profile = ( props ) => {
-    const html = props.html;
-    const icon = props.icon;
+const Profile = ({ profile,icon }) => {
     return (
         <section id="Profile">
             <div className="container">
@@ -14,7 +12,7 @@ const Profile = ( props ) => {
                     <div className="icon">
                         <Img className="icon-img" fixed={icon} />
                     </div>
-                    <div className="profile" dangerouslySetInnerHTML={{ __html: html }} />
+                    <div className="profile" dangerouslySetInnerHTML={{ __html: profile }} />
                 </div>
             </div>
         </section>
