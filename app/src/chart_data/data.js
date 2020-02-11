@@ -6,6 +6,7 @@ export const chartData = {
         'JavaScript',
         'React',
         'PHP',
+        'Laravel',
         'MySQL',
         'WordPress',
         'Git'
@@ -13,7 +14,7 @@ export const chartData = {
     datasets: [
         {
             label: 'スキルレベル',
-            data: [90,90,75,70,60,65,50,80,55],
+            data: [90,90,75,70,60,65,50,50,80,55],
             backgroundColor: [
                 '#ff7f50',
                 '#0080ff',
@@ -21,6 +22,7 @@ export const chartData = {
                 '#ffe14d',
                 '#66ffff',
                 '#5270cc',
+                '#ff4f1a',
                 '#4479a1',
                 '#007db7',
                 '#ff4500',
