@@ -17,7 +17,6 @@ const Contact = () => {
 
     return (
         <section id="Contact">
-            <div className="container">
             <form name="contact" className="contact-form" method="POST" data-netlify="true">
             <input type="hidden" name="form-name" value="contact" />
             <h2 className="heading">Contact</h2>
@@ -63,7 +62,6 @@ const Contact = () => {
                 送信
             </Button>
             </form>
-            </div>
         </section>
     );
 }

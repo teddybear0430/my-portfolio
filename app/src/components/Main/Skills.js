@@ -7,11 +7,9 @@ import '../../styles/skills.scss';
 const Skills = ({ skills }) => {
     return (
         <section id="Skills">
-            <div className="container">
-                <h2 className="heading">Skills</h2>
-                <HorizontalBar data={chartData} options={options} />
-                <div dangerouslySetInnerHTML={{ __html: skills }} />
-            </div>
+            <h2 className="heading">Skills</h2>
+            <HorizontalBar data={chartData} options={options} />
+            <div className="skills-info" dangerouslySetInnerHTML={{ __html: skills }} />
         </section>
     );
 }
