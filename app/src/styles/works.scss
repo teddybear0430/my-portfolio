@@ -4,8 +4,6 @@
     .portfolios {
         display: flex;
         flex-wrap: wrap;
-        width: 90% !important;
-        margin: 0 5% !important;
         @media (max-width: 1024px) {
             display: block;
         }
