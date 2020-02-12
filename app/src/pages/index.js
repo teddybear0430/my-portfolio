@@ -13,10 +13,13 @@ import '../styles/common.scss';
 
 const Index = ({ data }) => {
     const markdown = data.allMarkdownRemark;
+    const images = data.images;
+
     return (
         <Layout>
             <Header />
             <main>
+                <div className="container">
                 <Profile 
                     profile={markdown.edges[0].node.html}
                     icon={data.image1.childImageSharp.fixed}
@@ -24,10 +27,16 @@ const Index = ({ data }) => {
                 <Skills skills={markdown.edges[1].node.html} />
                 <Works 
                     works1={markdown.edges[2].node.html} 
+                    image1={data.images.edges[0].node.childImageSharp.fluid}
                     works2={markdown.edges[3].node.html} 
+                    image2={data.images.edges[1].node.childImageSharp.fluid}
                     works3={markdown.edges[4].node.html} 
+                    image3={data.images.edges[2].node.childImageSharp.fluid}
+                    works4={markdown.edges[5].node.html} 
+                    image4={data.images.edges[3].node.childImageSharp.fluid}
                 />
                 <Contact />
+                </div>
             </main>
         </Layout>
     )
@@ -51,6 +60,19 @@ export const query = graphql`
                         srcSet
                         base64
                     }
+            }
+        }
+        images: allFile(filter: { extension: { eq: "jpg" } }) {
+            edges {
+                node {
+                    name
+                    relativePath
+                    childImageSharp {
+                        fluid(maxWidth: 1000) {
+                            ...GatsbyImageSharpFluid
+                        }
+                    }
+                }
             }
         }
     }
