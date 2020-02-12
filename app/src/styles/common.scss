@@ -32,13 +32,15 @@ table {
 
 .wrapper {
     main {
+        .container {
+            padding: 0 30px;
+            @media (max-width: 600px) {
+                padding: 0 15px;
+            }
+        }
         section {
             margin: 50px 0;
-            width: 90%;
-            padding: 0 5%;
-            .container {
-                padding: 0 20px;
-            }
+            text-align: center;
             .heading {
                 position: relative;
                 text-align: center;
