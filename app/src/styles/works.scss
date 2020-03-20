@@ -14,37 +14,67 @@
                 width: 100%;
                 margin: 100px 0;
             }
-            .gatsby-image-wrapper {
-                width: 60% !important;
-                margin: 0 20% !important;
-                box-shadow: 0px 2px 1px -1px rgba(0,0,0,0.2), 0px 1px 1px 0px rgba(0,0,0,0.14), 0px 1px 3px 0px rgba(0,0,0,0.12) !important;
-                @media (max-width: 1024px) {
+            h4 {
+                font-size: 1.2rem;
+                margin: 20px 0;
+                text-align: center;
+            }
+            a {
+                transition: all 0.4s;
+            }
+            .portfolio-container {
+                width: 80%;
+                margin: 0 10%;
+                @media (max-width: 600px) {
+                    width: 100%;
+                    margin: 0;
+                }
+                h3 {
+                    color: $font_color_2 !important;
+                    font-size: 1.6rem;
+                    margin: 20px 0;
+                    a {
+                        color: $font_color_2;
+                        &:hover {
+                            color: $key_color_5;
+                        }
+                    }
+                }
+                .gatsby-image-wrapper {
                     width: 80% !important;
                     margin: 0 10% !important;
+                    box-shadow: 0px 2px 1px -1px rgba(0,0,0,0.2), 0px 1px 1px 0px rgba(0,0,0,0.14), 0px 1px 3px 0px rgba(0,0,0,0.12) !important;
                 }
-                @media (max-width: 600px) {
-                    width: 90% !important;
-                    margin: 0 5% !important;
-                }
-            }
-            .portfolio-content {
-                text-align: left;
-                width: 50%;
-                margin: 0 25%;
-                line-height: 190%;
-                h4 {
-                    text-align: center;
-                }
-                p {
-                    margin-bottom: 10px;
-                }
-                @media (max-width: 1024px) {
+                .portfolio-overview {
+                    text-align: left;
                     width: 80%;
-                    margin: 0 10%;
+                    margin: 30px 10%;
+                    line-height: 190%;
+                    p {
+                        margin-bottom: 10px;
+                        &:nth-child(5) {
+                            text-align: center;
+                        }
+                    }
+                    a {
+                        display: inline-block;
+                        border: 1px solid #ddd;
+                        border-radius: 4px;
+                        margin-top: 20px;
+                        padding: 6px;
+                        background: #24292e;
+                        color: #fff;
+                        font-size: 0.8rem;
+                        width: 60px;
+                        text-align: center;
+                        letter-spacing: 1px;
+                        &:hover {
+                            background: #838588;
+                        }
+                    }
                 }
-                @media (max-width: 600px) {
-                    width: 90% !important;
-                    margin: 0 5% !important;
+                .portfolio-technology {
+                    margin-top: 30px;
                 }
             }
         }
