@@ -6,6 +6,12 @@
         .input-field {
             width: 80%;
         }
+        .MuiTypography-body1 {
+            font-size: 0.8rem;
+            @media (max-width: 420px) {
+                font-size: 0.4rem;
+            }
+        }
         & button {
             margin-top: 30px;
             width: 100px;
